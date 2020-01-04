@@ -364,9 +364,6 @@
      -->
     <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
 
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">48px</dimen>
-
     <!-- Like config_mainBuiltInDisplayCutout, but this path is used to report the
          one single bounding rect per device edge to the app via
          {@link DisplayCutout#getBoundingRect}. Note that this path should try to match the visual
@@ -380,4 +377,7 @@
         V 0
         Z
     </string>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">48px</dimen>
 </resources>
