@@ -1,15 +1,16 @@
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2020 The StatiXOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/hotdog
+DEVICE_PATH := device/oneplus/hotdogb
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7T
 
 # Display
 TARGET_SCREEN_DENSITY := 560
@@ -39,9 +40,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-
-# Treble
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Fingerprint
 SOONG_CONFIG_ONEPLUS_MSMNILE_FOD_POS_X = 610

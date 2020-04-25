@@ -8,7 +8,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
+$(call inherit-product, vendor/oneplus/hotdogb/hotdogb-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
@@ -29,8 +29,6 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0 \
-    vendor.lineage.camera.motor@1.0-service.oneplus_msmnile \
     OnePlusCameraHelper
 
 # Device init scripts
