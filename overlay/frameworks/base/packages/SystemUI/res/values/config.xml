@@ -16,5 +16,5 @@
 */
 -->
 <resources>
-    <bool name="config_roundedCornerMultipleRadius">true</bool>
+    <bool name="config_roundedCornerMultipleRadius">false</bool>
 </resources>
